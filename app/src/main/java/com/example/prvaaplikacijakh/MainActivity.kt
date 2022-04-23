@@ -12,10 +12,10 @@ class MainActivity : AppCompatActivity() {
 
         val btnCLick = findViewById<Button>(R.id.myButton)
         val tvMyTextView = findViewById<TextView>(R.id.textView)
-        var
+        var timesCLicked = 0
         btnCLick.setOnClickListener{
-            btnCLick.text="Pozdrav,klik2"
-            tvMyTextView.text ="Klik2,pozdrav"
+                timesCLicked = timesCLicked +1
+                tvMyTextView.text = timesCLicked .toString()
         }
 
     }
