@@ -1,5 +1,7 @@
 package com.example.kbasics
 
 fun main(){
-    print("pozzdrav")
+    var myName = "Kristijan"
+    myName ="Kristian"
+    print("pozzdrav " + myName)
 }
