@@ -23,7 +23,8 @@ fun main(){
     resultDouble =  a/b
             print(resultDouble)
     val  isEqual = 5==5 //provjerava jesu li vrijednosti s obje strane jednake
-    println("isEqual is" +isEqual) 
+    println("isEqual is" $isEqual)
+    val  isEqual = 5!=5 //provjerava jesu li vrijednosti s obje strane nejednake
 
 }
     //tipovi podataka se ne moraju specificirati
