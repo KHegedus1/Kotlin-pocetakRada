@@ -24,7 +24,9 @@ fun main(){
             print(resultDouble)
     val  isEqual = 5==5 //provjerava jesu li vrijednosti s obje strane jednake
     println("isEqual is" $isEqual)
-    val  isEqual = 5!=5 //provjerava jesu li vrijednosti s obje strane nejednake
+    val  isNotEqual = 5!=5 //provjerava jesu li vrijednosti s obje strane nejednake
+    println("isNotEqual is" $isNotEqual)
+
 
 }
     //tipovi podataka se ne moraju specificirati
