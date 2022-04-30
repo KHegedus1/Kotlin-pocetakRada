@@ -22,6 +22,9 @@ fun main(){
     val b=3
     resultDouble =  a/b
             print(resultDouble)
+    val  isEqual = 5==5 //provjerava jesu li vrijednosti s obje strane jednake
+    println("isEqual is" +isEqual) 
+
 }
     //tipovi podataka se ne moraju specificirati
 
