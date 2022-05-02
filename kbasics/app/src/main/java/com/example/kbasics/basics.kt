@@ -27,6 +27,10 @@ fun main(){
     val  isNotEqual = 5!=5 //provjerava jesu li vrijednosti s obje strane nejednake
     println("isNotEqual is" $isNotEqual)
 
+    println("is5greater3 ${5>3}")
+    println("is-5greater3 ${-5>3}")
+    println("is5LowerEqual3 ${5<=3}")
+
 
 }
     //tipovi podataka se ne moraju specificirati
