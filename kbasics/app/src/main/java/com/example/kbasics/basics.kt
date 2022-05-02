@@ -31,7 +31,11 @@ fun main(){
     println("is-5greater3 ${-5>3}")
     println("is5LowerEqual3 ${5<=3}")
 
-
+    var myNum = 5
+    myNum += 3
+    println("myNum is $myNum")
+    myNum *= 4
+    println("myNum is $myNum")
 }
     //tipovi podataka se ne moraju specificirati
 
