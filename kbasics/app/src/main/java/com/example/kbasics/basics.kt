@@ -36,6 +36,16 @@ fun main(){
     println("myNum is $myNum")
     myNum *= 4
     println("myNum is $myNum")
+
+    myNum ++
+    println("myNum is $myNum")
+    println("myNum is ${myNum++}")
+    println("myNum is ${++myNum}")
+    println("myNum is ${--myNum}")
+
+
+
+
 }
     //tipovi podataka se ne moraju specificirati
 
