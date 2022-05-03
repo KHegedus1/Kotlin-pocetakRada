@@ -48,6 +48,8 @@ fun main(){
 
     if(heightPerson1 > heightPerson2){
         println("Use raw force")
+    }else if(heightPerson1 == heightPerson2){
+        println("Use power")
     }else{
         println("Use technique")
     }
