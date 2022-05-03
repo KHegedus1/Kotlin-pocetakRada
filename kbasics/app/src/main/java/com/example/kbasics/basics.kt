@@ -54,6 +54,16 @@ fun main(){
         println("Use technique")
     }
 
+    val age = 17
+    if(age >=21){
+        println("now you can drink in the USA")
+    }else if(age >=18){
+        println("you may vote now!")
+    }else if(age >=16){
+        println("you can drive now!")
+    }else(age <=15){
+        println("you are too young.")
+    }
 
 }
     //tipovi podataka se ne moraju specificirati
