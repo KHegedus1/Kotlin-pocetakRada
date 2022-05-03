@@ -65,6 +65,13 @@ fun main(){
         println("you are too young.")
     }
 
+    var name = "Kristijan"
+    if(name =="Kristijan"){
+        println("welcome home,kristijan!")
+    }else{
+        println("who are you?")
+    }
+   
 }
     //tipovi podataka se ne moraju specificirati
 
