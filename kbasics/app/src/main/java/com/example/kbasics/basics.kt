@@ -43,7 +43,14 @@ fun main(){
     println("myNum is ${++myNum}")
     println("myNum is ${--myNum}")
 
+    var heightPerson1 = 170
+    var heightPerson2 = 189
 
+    if(heightPerson1 > heightPerson2){
+        println("Use raw force")
+    }else{
+        println("Use technique")
+    }
 
 
 }
