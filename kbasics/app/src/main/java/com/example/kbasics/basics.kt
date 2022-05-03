@@ -71,7 +71,10 @@ fun main(){
     }else{
         println("who are you?")
     }
-   
+   var isRainy = true
+    if(isRainy){
+        println("It's rainy!")
+    }
 }
     //tipovi podataka se ne moraju specificirati
 
