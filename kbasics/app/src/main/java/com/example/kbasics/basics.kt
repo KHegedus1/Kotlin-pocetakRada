@@ -75,6 +75,14 @@ fun main(){
     if(isRainy){
         println("It's rainy!")
     }
+    var season = 3
+    when(season){
+        1-> println("it's spring")
+        2-> println("it's summer")
+        3-> println("it's autumn")
+        4-> println("it's winter")
+        else ->println("invalid season")
+    }
 }
     //tipovi podataka se ne moraju specificirati
 
