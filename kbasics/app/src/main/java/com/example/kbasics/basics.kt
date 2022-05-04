@@ -1,7 +1,7 @@
 package com.example.kbasics
 
 fun main(){
-    vaL myName = "Kristijan"
+    val myName = "Kristijan"
     myName ="Kristijan"
             print("pozzdrav " + myName)
 
@@ -94,10 +94,11 @@ fun main(){
 
     val age = 17
     when(age){
-        println("now you can drink in the USA")
-        println("you may vote now!")
-        println("you can drive now!")
-        println("you are too young.")
+        in 21..999  ->println("now you can drink in the USA")
+        in 18..20   ->println("you may vote now!")
+        16,17       ->println("you can drive now!")
+        in 1..15    ->println("you are too young.")
+        else        ->println("invalid age")
     }
 }
     //tipovi podataka se ne moraju specificirati
