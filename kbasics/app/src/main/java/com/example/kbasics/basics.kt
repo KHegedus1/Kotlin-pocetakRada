@@ -107,6 +107,12 @@ fun main(){
         x++
     }
     println(" \n while loop is done")
+    var x = 100
+    while(x >= 0){
+        println("$x")
+        x -=2
+    }
+    println(" \n while loop is done")
 }
     //tipovi podataka se ne moraju specificirati
 
