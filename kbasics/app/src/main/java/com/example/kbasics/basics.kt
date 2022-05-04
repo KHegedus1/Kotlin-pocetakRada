@@ -83,6 +83,14 @@ fun main(){
         4-> println("it's winter")
         else ->println("invalid season")
     }
+    var month = 3
+    when(month){
+        in 3..5 ->println("spring")
+        in 6..8 ->println("summer")
+        in 9..11 ->println("autumn")
+        in 12,1,2 ->println("winter")
+        else ->println("invalid season")
+    }
 }
     //tipovi podataka se ne moraju specificirati
 
