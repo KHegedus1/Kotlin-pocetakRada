@@ -100,6 +100,13 @@ fun main(){
         in 1..15    ->println("you are too young.")
         else        ->println("invalid age")
     }
+
+    var x = 1
+    while(x <= 10){
+        println("$x")
+        x++
+    }
+    println(" \n while loop is done")
 }
     //tipovi podataka se ne moraju specificirati
 
