@@ -88,8 +88,16 @@ fun main(){
         in 3..5 ->println("spring")
         in 6..8 ->println("summer")
         in 9..11 ->println("autumn")
-        in 12,1,2 ->println("winter")
+        12,1,2 ->println("winter")
         else ->println("invalid season")
+    }
+
+    val age = 17
+    when(age){
+        println("now you can drink in the USA")
+        println("you may vote now!")
+        println("you can drive now!")
+        println("you are too young.")
     }
 }
     //tipovi podataka se ne moraju specificirati
