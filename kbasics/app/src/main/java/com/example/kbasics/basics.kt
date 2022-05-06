@@ -123,7 +123,11 @@ fun main(){
 
     for(num in 1..10){
         print("$num")
-        
+
+    }
+    for( i in 1 until 10){
+        print("$i ")
+
     }
 }
     //tipovi podataka se ne moraju specificirati
