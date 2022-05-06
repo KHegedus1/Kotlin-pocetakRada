@@ -1,6 +1,7 @@
 package com.example.kbasics
 
 fun main(){
+
     val myName = "Kristijan"
     myName ="Kristijan"
             print("pozzdrav " + myName)
@@ -136,6 +137,15 @@ fun main(){
         print("$i ")
     }
     print("done with the loop!")
-}
-    //tipovi podataka se ne moraju specificirati
+    var result = addUp( a:5,b:3 )
+    print("result is + $result")
 
+
+}
+
+fun addUp(a: Int,b:Int) :Int {
+    return a+b
+}
+//tipovi podataka se ne moraju specificirati
+
+(
