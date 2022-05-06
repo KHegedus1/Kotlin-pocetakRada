@@ -113,6 +113,14 @@ fun main(){
         x -=2
     }
     println(" \n while loop is done")
+
+    x=1
+    do{
+        print("$x")
+        x++
+    }while(x <=10)
+    println(" \n  do while loop is done")
+
 }
     //tipovi podataka se ne moraju specificirati
 
