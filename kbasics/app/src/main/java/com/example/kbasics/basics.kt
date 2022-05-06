@@ -137,14 +137,17 @@ fun main(){
         print("$i ")
     }
     print("done with the loop!")
-    var result = addUp( a:5,b:3 )
-    print("result is + $result")
+    var result = addUp( a:5,b:13 )
+    print("result is + $avg")
 
 
 }
 
 fun addUp(a: Int,b:Int) :Int {
     return a+b
+}
+fun avg(a: Double,b: Double) :Double {
+    return a+b/2
 }
 //tipovi podataka se ne moraju specificirati
 
