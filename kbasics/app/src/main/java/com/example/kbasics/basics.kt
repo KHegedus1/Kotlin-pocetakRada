@@ -129,6 +129,13 @@ fun main(){
         print("$i ")
 
     }
+    for( i in 1 until 20){
+        print("$i ")
+        if(i/2 ==5){
+            break
+        }
+    }
+    print("done with the loop!")
 }
     //tipovi podataka se ne moraju specificirati
 
