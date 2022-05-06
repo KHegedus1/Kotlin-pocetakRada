@@ -121,6 +121,10 @@ fun main(){
     }while(x <=10)
     println(" \n  do while loop is done")
 
+    for(num in 1..10){
+        print("$num")
+        
+    }
 }
     //tipovi podataka se ne moraju specificirati
 
