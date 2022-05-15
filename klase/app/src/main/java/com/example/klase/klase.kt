@@ -5,6 +5,6 @@ fun main (){
 }
 class Person constructor(firstName: String, lastName: String){
     init{
-        
+        println("Initialized a new person object with " + "Firstname= $firstName and Lastname= $lastName")
     }
 }
