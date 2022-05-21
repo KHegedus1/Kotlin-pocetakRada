@@ -1,7 +1,7 @@
 package com.example.klase
 
 fun main (){
-    myFunction(a:5)
+    myFunction(a:5)//funkcija
     var kh = Person("Kristijan","sdssasd")
     var john = Person()
     var johnPeterson = Person(lastName = "Peterson")
@@ -13,6 +13,6 @@ class Person constructor(firstName: String = "John", lastName: String = "Doe"){
     }
 
     fun myFunction(a:Int){
-         var a = 5
+         var a = 5//parametar
 
     }    }
