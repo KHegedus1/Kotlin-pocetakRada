@@ -14,5 +14,6 @@ class Person constructor(firstName: String = "John", lastName: String = "Doe"){
 
     fun myFunction(a:Int){ //parametar
          var a = 5
+        println("a is $a")
 
     }    }
