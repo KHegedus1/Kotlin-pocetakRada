@@ -12,7 +12,7 @@ class Person constructor(firstName: String = "John", lastName: String = "Doe"){
         println("Initialized a new person object with " + "Firstname= $firstName and Lastname= $lastName")
     }
 
-    fun myFunction(a:Int){
-         var a = 5//parametar
+    fun myFunction(a:Int){ //parametar
+         var a = 5
 
     }    }
