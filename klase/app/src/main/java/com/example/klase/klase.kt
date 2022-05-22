@@ -8,6 +8,7 @@ fun main (){
 }
 
 class Person constructor(firstName: String = "John", lastName: String = "Doe"){
+    //Member variables-svojstva
     init{
         println("Initialized a new person object with " + "Firstname= $firstName and Lastname= $lastName")
     }
