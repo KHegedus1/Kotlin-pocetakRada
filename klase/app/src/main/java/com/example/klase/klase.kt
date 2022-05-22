@@ -14,6 +14,11 @@ class Person constructor(firstName: String = "John", lastName: String = "Doe"){
     init{
         println("Initialized a new person object with " + "Firstname= $firstName and Lastname= $lastName")
     }
+    //Member functions-metode
+    fun stateHobby(){
+        println("My hobby is $hobby")
+    }
+
 }
     fun myFunction(a:Int){ //parametar
          var a = 5
