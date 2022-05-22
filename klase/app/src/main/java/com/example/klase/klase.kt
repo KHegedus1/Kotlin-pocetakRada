@@ -9,6 +9,8 @@ fun main (){
 
 class Person constructor(firstName: String = "John", lastName: String = "Doe"){
     //Member variables-svojstva
+    var age  : Int? = null
+    var hobby : String = "watching netflix"
     init{
         println("Initialized a new person object with " + "Firstname= $firstName and Lastname= $lastName")
     }
