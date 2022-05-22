@@ -3,7 +3,10 @@ package com.example.klase
 fun main (){
     myFunction(a:5)//funkcija
     var kh = Person("Kristijan","sdssasd")
+    kh.hobby="Skateboard"
+    kh.stateHobby()
     var john = Person()
+    john.hobby="Videogames"
     var johnPeterson = Person(lastName = "Peterson")
 }
 
