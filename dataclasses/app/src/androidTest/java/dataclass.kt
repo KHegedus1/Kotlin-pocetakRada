@@ -10,5 +10,7 @@ fun main(){
     println(user1 == user2)
     println("User details: $user1")
     val updatedUser = user1.copy(name = "Kristijan H")
+    println(user1)
+    println(updatedUser)
 
 }
