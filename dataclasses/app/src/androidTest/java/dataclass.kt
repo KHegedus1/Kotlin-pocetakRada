@@ -5,4 +5,9 @@ fun main(){
     val name = user1.name
     println(name)
     user1.id = 2//Radilo bi zato sto je val
+    user1.name= "Kriistijan"
+    val user2= User(id: 2, name:"Cristian")
+    println(user1 == user2)
+    println("User details: $user1")
+
 }
