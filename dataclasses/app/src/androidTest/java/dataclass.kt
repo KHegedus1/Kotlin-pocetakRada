@@ -14,4 +14,6 @@ fun main(){
     println(updatedUser)
     println(updatedUser.component1()) // prikazuje 1
     println(updatedUser.component1()) // prikazuje Kristijan H
+    val ( Id,name) = updatedUser
+    println("id=$id,name=$name")
 }
