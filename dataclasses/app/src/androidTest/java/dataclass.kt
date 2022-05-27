@@ -12,5 +12,6 @@ fun main(){
     val updatedUser = user1.copy(name = "Kristijan H")
     println(user1)
     println(updatedUser)
-
+    println(updatedUser.component1()) // prikazuje 1
+    println(updatedUser.component1()) // prikazuje Kristijan H
 }
