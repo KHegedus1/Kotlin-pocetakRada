@@ -26,4 +26,11 @@ class  ElectricCar: Car(){
     }
     }
 }
+interface Driveable{
+     val maxSpeed: Double
+     fun drive(): String
+     fun brake(){
+         println("This driveable is braking")
+     }
+}
 
