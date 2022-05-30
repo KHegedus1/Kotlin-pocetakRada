@@ -34,7 +34,8 @@ interface Driveable{
      }
 
     override  fun brake(){
-        super.brake() 
+        super.brake() //nedostaje brake u glavnoj funkciji
+        println("brake inside of an electric car")
     }
 }
 
