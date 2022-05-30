@@ -32,5 +32,9 @@ interface Driveable{
      fun brake(){
          println("This driveable is braking")
      }
+
+    override  fun brake(){
+        super.brake() 
+    }
 }
 
