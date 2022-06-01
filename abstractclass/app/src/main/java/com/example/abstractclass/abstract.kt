@@ -9,3 +9,8 @@ abstract class Mammal(private val name: String, private val origin: String,
     abstract fun run()
 
 }
+//concrete(non abstract) method
+fun displayDetails(){
+    println("Name: $name, Origin: $origin,Weight: $weight," + "Max speed: $maxSpeed")
+}
+}
