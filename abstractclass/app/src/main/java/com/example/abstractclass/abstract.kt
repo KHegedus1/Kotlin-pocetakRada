@@ -14,3 +14,16 @@ fun displayDetails(){
     println("Name: $name, Origin: $origin,Weight: $weight," + "Max speed: $maxSpeed")
 }
 }
+Class Human (name: String,origin : string,weight: Double,
+    override var maxSpeed: Double): Mammal(name,origin,weight){
+
+    override fun run(){
+        //code to run
+        println("run on two legs")
+    }
+
+    override fun breath(){
+        //code to breathe
+        println("through mouth or nose")
+    }
+}
