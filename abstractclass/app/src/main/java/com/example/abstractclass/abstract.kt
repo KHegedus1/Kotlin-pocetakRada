@@ -27,3 +27,4 @@ Class Human (name: String,origin : string,weight: Double,
         println("through mouth or nose")
     }
 }
+//interface moze implementirati vise interfacea,a samo jednu klasu.Nemaju polja i konstruktore
