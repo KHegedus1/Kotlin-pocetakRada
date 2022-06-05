@@ -15,3 +15,4 @@ value.length} ")
 println("Uknown type")
 }
 }
+//moze se i sa when petljom
