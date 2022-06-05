@@ -1,0 +1,17 @@
+fun main(){
+val stringList: List<String> = ListOf( "Denis","Frank","Michael","Garry")
+val mixedTypeList: List<Any> = ListOf( "Denis",31,5,"BDay",70.5,"weighs","Kg")
+
+for (value in mixedTypeList){
+if value is Int){
+println("Integer: '$value'")
+}else if (value is Double){
+println("Double: '$value' with Floor value ${
+Math.floor(value)}")
+}else if(value is String){
+println("String: '$value' of lenght ${
+value.length} ")
+}else{
+println("Uknown type")
+}
+}
